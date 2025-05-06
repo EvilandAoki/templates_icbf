@@ -5,8 +5,9 @@
     font-family: var.$font-montserrat;
 
     &-th {
-        font-size: 16px;
+        font-size: 14px;
         padding: 8px;
+        color: var.$color-text-gray;
         line-height: 1.4;
         vertical-align: middle;
         border-bottom: 1px solid #ddd;
@@ -18,6 +19,7 @@
         line-height: 1.4;
         vertical-align: top;
         border-top: 1px solid #ddd;
+        color: var.$color-text-gray;
     }
 
     &-link {
