@@ -1,8 +1,5 @@
 @use "../abstracts/variables" as var;
 
-$primary-color: #05381A;
-$secondary-color: #5D2DE6;
-
 .notice{
     &-section_news{
         margin: auto;
@@ -10,6 +7,9 @@ $secondary-color: #5D2DE6;
     &-news{
         &_main{
             padding-right: 4rem;
+            @media (max-width: 767px){
+                padding-right: 0;
+            }
             h1{
                 font-size: 2em;
                 font-family: var.$font-montserrat;
