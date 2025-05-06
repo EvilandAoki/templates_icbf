@@ -1,0 +1,34 @@
+@use "../../abstracts/variables" as var;
+
+
+.custom-table {
+    font-family: var.$font-montserrat;
+
+    &-th {
+        font-size: 16px;
+        padding: 8px;
+        line-height: 1.4;
+        vertical-align: middle;
+        border-bottom: 1px solid #ddd;
+    }
+
+    &-td {
+        font-size: 14px;
+        padding: 8px;
+        line-height: 1.4;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+    }
+
+    &-link {
+        color: var.$link_color;
+        text-decoration: none;
+    }
+
+    .table-body {
+        display: table-row-group;
+        vertical-align: middle;
+        unicode-bidi: isolate;
+        border-color: inherit;
+    }
+}

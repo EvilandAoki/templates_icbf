@@ -7,7 +7,6 @@
     }
 
 
-
     &-bg-image {
         padding-top: 100px;
         //! CAMBIAR EL BG POR EL LINK DE LA IMAGEN CORRESPONDIENTE EN EL MOTOR DE PLANTILLAS
@@ -34,6 +33,12 @@
             background-color: #f8f8f8;
             font-family: var.$font-montserrat-regular;
             color: var.$link_visited_color;
+        }
+
+        .button-banner:hover {
+            color: #ffffff;
+            border-color: #74bc4d;
+            background-color: #74bc4d;
         }
 
         strong {
