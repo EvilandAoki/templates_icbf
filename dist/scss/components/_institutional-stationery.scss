@@ -1,0 +1,44 @@
+@use "../abstracts/variables" as var;
+
+.institutional-stationery {
+    h1 {
+        font-size: 1.7em;
+        font-family: var.$font-asap-regular;
+    }
+
+
+
+    &-bg-image {
+        padding-top: 100px;
+        //! CAMBIAR EL BG POR EL LINK DE LA IMAGEN CORRESPONDIENTE EN EL MOTOR DE PLANTILLAS
+        background-image: url('http://localhost:5500/templates_intranet/Images/bann-bggeneral-docs.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+
+        .title-banner {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            line-height: 1.1;
+            color: var.$color-primary-white;
+            font-size: 2.2em;
+            font-weight: 400;
+            font-family: var.$font-asap-regular;
+        }
+
+        .button-banner {
+            margin-top: 10px;
+            margin-bottom: 80px;
+            border-color: #ffffff;
+            background-color: #f8f8f8;
+            font-family: var.$font-montserrat-regular;
+            color: var.$link_visited_color;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+    }
+}

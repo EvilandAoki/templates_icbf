@@ -1,0 +1,17 @@
+// Default
+@use 'abstracts/variables';
+@use 'abstracts/base';
+@use 'abstracts/fonts';
+@use 'abstracts/general';
+
+
+@use 'layout/header/header-bottom';
+@use 'layout/header/header-top';
+@use 'layout/footer/footer';
+@use 'layout/taxonomias/taxonomia';
+
+
+@use 'components/breadcrumb';
+@use 'components/notice';
+@use 'components/regional-acts';
+@use 'components/institutional-stationery';
