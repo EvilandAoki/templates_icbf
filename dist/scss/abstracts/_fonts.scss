@@ -15,6 +15,13 @@ $fonts: "./../assets/fonts" !default;
 }
 
 @font-face {
+  font-family: "montserrat-light";
+  src: url("./../assets/fonts/montserrat/Montserrat-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Asap";
   src: url("./../assets/fonts/asap/Asap-Italic.ttf");
   font-weight: normal;
@@ -29,8 +36,8 @@ $fonts: "./../assets/fonts" !default;
 }
 
 @font-face {
-  font-family: "montserrat-light";
-  src: url("./../assets/fonts/montserrat/Montserrat-Light.ttf");
+  font-family: "Asap-Bold";
+  src: url("./../assets/fonts/asap/Asap-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }

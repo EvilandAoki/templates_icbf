@@ -63,25 +63,6 @@
         }
     }
 
-    &-bg-image {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        background-image: url('http://localhost:5500/templates_intranet/Images/bg-intranet-gradients10.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-
-        .title-banner {
-            text-align: center;
-            line-height: 1.1;
-            color: var.$color-primary-white;
-            font-size: 2.2em;
-            font-weight: 600;
-            font-family: var.$font-montserrat;
-        }
-
-    }
-
     &-section-filters {
 
         .title_filter {

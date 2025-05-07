@@ -3,6 +3,7 @@ $font-montserrat-regular: 'montserrat-regular';
 $font-montserrat-light: 'montserrat-light';
 $Asap: 'Asap';
 $font-asap-regular: 'Asap-Regular';
+$font-asap-bold: 'Asap-Bold';
 $fAssistant: 'Assistant';
 $font-arial: 'Arial', sans-serif;
 $title_font: 'Zurich';
@@ -21,15 +22,16 @@ $color-primary-tag_a: #1996d0;
 $color-primary-white: #fff;
 $color-primary-blue: #0073ff;
 $color-secundary-blue: #36c;
+$color-bg-white: #f8f8f8;
 
 $icbf_green: #76B82A;
 $icbf_green_light: #76B82A;
+$icbf_green_bg: #74bc4d;
 $background-color: white;
 $background-gray: #ECF0F1;
 $images-background: #636262;
 
 
-$media_mobile:  576px;
-$media_tablet:  992px;
+$media_mobile: 576px;
+$media_tablet: 992px;
 $media_desktop: 1200px;
-
