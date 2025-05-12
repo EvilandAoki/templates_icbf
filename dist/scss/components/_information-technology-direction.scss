@@ -1,0 +1,289 @@
+@use "../abstracts/variables" as var;
+
+.information-direction {
+  padding-right: 30px;
+        padding-left: 30px;
+    font-family: var.$font-montserrat-regular;
+
+    &-ctn {
+        position: relative;
+        overflow: hidden;
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+
+    &-picture {
+      
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: right top;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            background: #f8f8f8;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+    // seccion 1 lista de item
+
+    .menu-dit {
+        display: block;
+        margin: auto;
+        padding-top: 2em;
+        text-align: center;
+    }
+
+    a.mbtn-dit {
+        color: #FFF;
+        display: inline-block;
+        font-size: 1em;
+        font-weight: 600;
+        margin-right: .7em;
+        text-align: center;
+        text-decoration: none;
+        transition: 2s all;
+    }
+
+    a.mbtn-dit:hover {
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        text-decoration: underline;
+    }
+
+    a.mbtn-dit img {
+        display: block;
+        height: auto;
+        margin: .4em auto;
+        width: 42px;
+    }
+
+    .bottom1 {
+        border-bottom: 4px solid #6db544;
+        display: block;
+        margin: auto;
+        width: 70px;
+    }
+
+
+    .bottom2 {
+        border-bottom: 4px solid #3cb371;
+        display: block;
+        margin: auto;
+        width: 70px;
+    }
+
+    .bottom3 {
+        border-bottom: 4px solid #00babb;
+        display: block;
+        margin: auto;
+        width: 70px;
+    }
+
+    .bottom4 {
+        border-bottom: 4px solid #258749;
+        display: block;
+        margin: auto;
+        width: 70px;
+    }
+
+    .bottom5 {
+        border-bottom: 4px solid #0c7984;
+        display: block;
+        margin: auto;
+        width: 70px;
+    }
+
+
+    // seccion 2 items con card
+
+    .az-element {
+        position: relative;
+    }
+
+    .box-dit1 {
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+        -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        -o-box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        height: auto;
+        margin: 1em auto;
+        width: 100%;
+    }
+
+    .box-ditid {
+        background-image: url('../assets/icons/dit-images-vector_34.png');
+        background-repeat: no-repeat;
+        background-size: 300px 81px;
+        color: #fff;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.27em;
+        font-weight: 600;
+        left: -1.3em;
+        min-height: 100px;
+        padding: .5em .5em .6em 1.5em;
+        position: absolute;
+        top: 0;
+    }
+
+    .box-dit-corner {
+        background-image: url('../assets/icons/dit-images-vector_36.png');
+        background-repeat: no-repeat;
+        background-size: 85px;
+        bottom: 0;
+        display: block;
+        height: 80px;
+        left: 85%;
+        position: absolute;
+        right: 0;
+        text-align: right;
+    }
+
+    .dit-iconbox {
+        clear: both;
+        margin: 5em 0 1em 0;
+    }
+
+    .dit-iconbox img {
+        display: block;
+        height: auto;
+        margin: auto;
+        padding: 1.5em 0 .5em 0;
+        width: 112px;
+    }
+
+    a.btn-1519-d {
+        background-color: #0073FF;
+        border-radius: 30px;
+        border: 1px solid #0073FF;
+        color: #FFF;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .89em;
+        font-weight: 600;
+        margin: .2em .3em .4em 0;
+        padding: .2em .67em;
+        text-decoration: none;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    a.btn-1519-d:hover {
+        background-color: #FFF;
+        border-radius: 30px;
+        border: 1px solid #0073FF;
+        color: #0073FF;
+    }
+
+    .box-ditinfo {
+        text-align: center;
+        padding: 1em .6em;
+    }
+
+    .dit-ai {
+        display: block;
+        font-weight: 500;
+        padding: 1em 0 2em 0;
+    }
+
+    .dit-ai img {
+        float: left;
+        margin-right: .3em;
+        width: 55px;
+    }
+
+    .dit-ai span {
+        display: flex;
+        margin-top: .5em;
+    }
+
+    .box-ditid2 {
+        background-image: url(https://intranet.icbf.gov.co/sites/default/files/dit-images-vector_34.png);
+        background-repeat: no-repeat;
+        background-size: 216px 63px;
+        color: #fff;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        font-weight: 600;
+        left: -.8em;
+        min-height: 100px;
+        padding: .7em .2em .6em 1.4em;
+        position: absolute;
+        top: 0;
+        width: inherit;
+    }
+
+    .box-ditinfo2 {
+        padding: 6em .5em .3em .9em;
+    }
+
+    .cdit {
+        background-image: url(/sites/default/files/bg-catalogo-dit_61.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        display: block;
+        height: 315px;
+        position: relative;
+        width: 100%;
+    }
+
+    .cdit-content {
+        bottom: .7em;
+        display: block;
+        margin-right: 2em;
+        position: absolute;
+        right: 0;
+    }
+
+    a.cdit-btn {
+        background-image: url(/sites/default/files/dit-images-vector_54.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 225px 62px;
+        display: block;
+        height: 65px;
+        transition: .2s all ease-out;
+        width: 230px;
+    }
+
+    // Seccion 3
+    .he_back-cleargrey {
+        background-color: #F8F8F8;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        left: 50%;
+        margin-left: -50vw;
+        padding: 2em 0;
+        position: relative;
+        width: 100vw;
+    }
+}
