@@ -60,23 +60,7 @@
         padding: 0;
     }
 
-    .img-right-container {
-        z-index: 2; // Mayor que el contenedor padre
-        right: 0;
-        width: 100%;
-        margin-top: -5em;
-        margin-bottom: 1em;
 
-        .sigue-pet-01 {
-            height: 200px;
-            width: auto;
-            margin-top: -70px;
-            display: inline-block;
-            margin-right: 210px;
-            margin-bottom: 0;
-
-        }
-    }
 
     &-back-cleargrey {
         background-color: var.$color-bg-white;
@@ -117,25 +101,73 @@
         }
     }
 
-}
+    .img-right-container {
+        z-index: 2; // Mayor que el contenedor padre
+        right: 0;
+        width: 100%;
+        margin-top: -5em;
+        margin-bottom: 1em;
 
+        .sigue-pet-01 {
+            height: 200px;
+            width: auto;
+            margin-top: -70px;
+            display: inline-block;
+            margin-right: 210px;
+            margin-bottom: 0;
 
-
-.img-right {
-    text-align: right;
-}
-
-.title-banner-mt {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 1.1;
-    color: var.$color-primary-white;
-    font-size: 2.2em;
-    font-weight: 400;
-    font-family: var.$font-montserrat-regular;
-
-    strong {
-        font-family: var.$font-montserrat-regular;
+        }
     }
+
+
+    .links-interest-title {
+        margin-top: 2em;
+        margin-bottom: 1em;
+
+        h2 {
+            text-align: center;
+            color: var.$color-text-gray;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.58em;
+            font-weight: 500;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid var.$color-hr-white;
+        }
+    }
+
+    .links-interest-list {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .links-interest-card {
+        text-align: center;
+
+        h5 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+
+    .ico-qamenu2 {
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+
+    }
+
+    .img-right {
+        text-align: right;
+    }
+
+
 }
